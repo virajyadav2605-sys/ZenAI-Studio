@@ -23,7 +23,7 @@ if st.button("Generate Script 🚀"):
         with st.spinner("AI is brainstorming your next hit..."):
             try:
                 # Latest stable model for speed
-                model = genai.GenerativeModel("gemini-1.5-flash")
+                model = genai.GenerativeModel("gemini-pro")
                 
                 # Instruction
                 prompt = f"Act as a professional YouTuber. Write a viral Title and a high-energy script in Hinglish for: {topic}"
